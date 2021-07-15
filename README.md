@@ -1,3 +1,3 @@
 # CV-Web
 This is my C.V
-just click here! https://github.com/NicolasOps/CV-Web.git
+just click here! https://nicolasops.github.io/CV-Web/
