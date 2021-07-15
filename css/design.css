@@ -1,0 +1,129 @@
+* {
+ margin: 0 auto;
+ padding: 0 auto;
+ height: 0 auto;
+ box-sizing: border-box;
+ box-sizing: content-box;
+ display: flexbox;
+}
+
+/*Contenedor*/
+
+.conteiner {
+    margin: 80px 80px;
+    background-color:#FFB065;
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+}
+
+/*Diseños en general*/
+
+section {
+    box-sizing: content-box;
+    display: flexbox;
+    margin: 5%;
+}
+
+section h1 {
+color: orangered;
+}
+
+
+/*Columna de Contacto*/
+.info {
+    margin: 5%;
+    text-align: left;
+}
+
+.row .col-4{
+    width: 91%;
+    height: auto;
+    background-color: #7E92FE;
+    position: relative;
+    box-sizing: content-box;
+    color: white;
+
+}
+
+.row .col-4 h1 {
+    color: white;
+}
+
+/*Imagen con efecto*/
+
+.conteiner figure img {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    transition: all 500ms ease-out;
+    border-radius: 50%;
+}
+
+.conteiner figure {
+    margin: 40px 40px;
+    top: 30px;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.row .col-4 figure .capa {
+    color: beige;
+    position: absolute;
+    top: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: rgba(11,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.conteiner figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.conteiner figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px; 
+}
+
+.conteiner figure:hover > .img {
+    transform: scale(1.3);
+}
+
+.conteiner figure  .capa h3 { 
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+.conteiner figure .capa p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 10%;
+    max-width: 220px;
+    margin: 0 auto;
+}
+
+/*Columna De Información*/
+.conteiner .row .col-8 {
+ display: flexbox;
+ box-sizing: content-box;
+ margin: 0 auto;
+ height: 0 auto;
+ height: 0 auto;
+}
