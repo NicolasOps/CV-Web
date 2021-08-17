@@ -11,10 +11,12 @@
 
 .conteiner {
     margin: 80px 80px;
-    background-color:#FFB065;
+    background-color:#fff;
     display: flex;
     justify-content: center;
     box-sizing: content-box;
+    border: 5px solid #0126A2;
+    
 }
 
 /*Diseños en general*/
@@ -23,10 +25,12 @@ section {
     box-sizing: content-box;
     display: flexbox;
     margin: 5%;
+    
 }
 
 section h1 {
-color: orangered;
+color: #0126A2;
+
 }
 
 
@@ -34,15 +38,17 @@ color: orangered;
 .info {
     margin: 5%;
     text-align: left;
+ 
 }
 
 .row .col-4{
-    width: 91%;
+    width: 90%;
     height: auto;
-    background-color: #7E92FE;
+    background-color: #0126A2;
     position: relative;
     box-sizing: content-box;
     color: white;
+    position: static;
 
 }
 
@@ -50,10 +56,12 @@ color: orangered;
     color: white;
 }
 
+
+
+
 /*Imagen con efecto*/
 
 .conteiner figure img {
-    position: absolute;
     height: 300px;
     width: 300px;
     margin: auto;
